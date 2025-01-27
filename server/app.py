@@ -2,7 +2,7 @@ from flask import Flask, jsonify, send_from_directory, request
 from flask_cors import CORS
 import logging
 from datetime import datetime
-from database import get_transactions, get_recent_transactions
+from server.database import get_transactions, get_recent_transactions
 
 # Set up logging
 logging.basicConfig(level=logging.DEBUG)

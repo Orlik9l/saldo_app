@@ -482,12 +482,21 @@
 
             function setLastMonthDates() {
                 const today = new Date();
-                const firstDayOfCurrentMonth = new Date(today.getFullYear(), today.getMonth(), 1);
-                const lastDayOfLastMonth = new Date(firstDayOfCurrentMonth - 1);
-                const firstDayOfLastMonth = new Date(lastDayOfLastMonth.getFullYear(), lastDayOfLastMonth.getMonth(), 1);
+                // Create date for first day of current month
+                const firstDayCurrentMonth = new Date(today.getFullYear(), today.getMonth(), 1);
+                // Subtract one day to get last day of previous month
+                const lastDayLastMonth = new Date(firstDayCurrentMonth);
+                lastDayLastMonth.setDate(firstDayCurrentMonth.getDate() - 1);
+                // Get first day of last month using the last day's month
+                const firstDayLastMonth = new Date(lastDayLastMonth.getFullYear(), lastDayLastMonth.getMonth(), 1);
                 
-                startDateInput.value = firstDayOfLastMonth.toISOString().split('T')[0];
-                endDateInput.value = lastDayOfLastMonth.toISOString().split('T')[0];
+                startDateInput.value = firstDayLastMonth.toISOString().split('T')[0];
+                endDateInput.value = lastDayLastMonth.toISOString().split('T')[0];
+                
+                console.log('Last month date range:', {
+                    start: startDateInput.value,
+                    end: endDateInput.value
+                });
             }
 
             function updateButtonStates(isAllTransactions) {
