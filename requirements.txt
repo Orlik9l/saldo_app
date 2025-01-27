@@ -1,0 +1,15 @@
+# HTTP Requests
+requests>=2.31.0
+
+# JWT Handling
+PyJWT>=2.8.0
+
+# Type Hints & Data Classes
+typing-extensions>=4.8.0
+dataclasses>=0.6; python_version < "3.7"
+
+# Logging
+python-json-logger>=2.0.7
+
+# Date/Time Handling
+python-dateutil>=2.8.2 

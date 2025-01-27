@@ -1,0 +1,122 @@
+[
+  {
+    "transactionDate": 1737907872000,
+    "title": "GalyaBaluvana",
+    "journalList": [
+      {
+        "master": true,
+        "entryType": "CREDIT",
+        "amount": 512.35,
+        "account": {
+          "name": "Monobank UAH, Black"
+        }
+      },
+      {
+        "master": false,
+        "entryType": "DEBIT",
+        "amount": 512.35,
+        "account": {
+          "name": "Groceries",
+          "type": "EXPENSES",
+          "icon": "groceries"
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": 1737833705000,
+    "title": "PITsERIIa KISS LIKE PIZZA",
+    "journalList": [
+      {
+        "master": true,
+        "entryType": "CREDIT",
+        "amount": 445.0,
+        "account": {
+          "name": "Monobank UAH, Black"
+        }
+      },
+      {
+        "master": false,
+        "entryType": "DEBIT",
+        "amount": 445.0,
+        "account": {
+          "name": "Eating out",
+          "type": "EXPENSES",
+          "icon": "eating_out"
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": 1737831966000,
+    "title": "Uklon",
+    "journalList": [
+      {
+        "master": true,
+        "entryType": "CREDIT",
+        "amount": 250.0,
+        "account": {
+          "name": "Monobank UAH, Black"
+        }
+      },
+      {
+        "master": false,
+        "entryType": "DEBIT",
+        "amount": 250.0,
+        "account": {
+          "name": "Transport",
+          "type": "EXPENSES",
+          "icon": "transport"
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": 1737793029000,
+    "title": "Uklon",
+    "journalList": [
+      {
+        "master": true,
+        "entryType": "CREDIT",
+        "amount": 244.0,
+        "account": {
+          "name": "Monobank UAH, Black"
+        }
+      },
+      {
+        "master": false,
+        "entryType": "DEBIT",
+        "amount": 244.0,
+        "account": {
+          "name": "Transport",
+          "type": "EXPENSES",
+          "icon": "transport"
+        }
+      }
+    ]
+  },
+  {
+    "transactionDate": 1737787685000,
+    "title": "Uklon",
+    "journalList": [
+      {
+        "master": true,
+        "entryType": "CREDIT",
+        "amount": 17.0,
+        "account": {
+          "name": "Monobank UAH, Black"
+        }
+      },
+      {
+        "master": false,
+        "entryType": "DEBIT",
+        "amount": 17.0,
+        "account": {
+          "name": "Transport",
+          "type": "EXPENSES",
+          "icon": "transport"
+        }
+      }
+    ]
+  }
+]
