@@ -19,3 +19,9 @@ gunicorn>=20.1.0
 
 # Web Framework
 flask>=2.3.3
+
+# CORS
+flask_cors>=3.0.10
+
+# JSON
+jsonpickle>=3.0.1
